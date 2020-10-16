@@ -1,0 +1,22 @@
+body,html {
+  width: 100%;
+  height: 100%;
+  background: url(img1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: black;
+    background-color: red;
+    border-color: green;
+    border-width: 2px;
+    transform: scale3d(1.5,1.5,1.5);
+}
+.jumbo{
+  background-color : #b8de6f;
+  width : 50%;
+  margin: 5% auto;
+}
